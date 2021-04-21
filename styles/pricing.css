@@ -1,0 +1,110 @@
+.pricings {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.span {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.pricings {
+  filter: brightness(100%);
+  filter: blur(0%);
+  margin-bottom: 50px;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.pricings-output {
+  text-align: center;
+}
+
+#twelve,
+#six,
+#three,
+#one {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.month-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: #e85353;
+  padding: 3px;
+  border-radius: 20px;
+}
+
+.monthly {
+  background-color: #3664f4;
+  margin-top: 20px;
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.monthly:hover {
+  box-shadow: 0 0 3pt 2pt #e85353;
+}
+
+.pricings-output {
+  background-color: #3664f4;
+  border-radius: 20px;
+}
+
+.pricings-output p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.input-container p {
+  background-color: #3664f4;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.input-container input {
+  color: #3664f4;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.input-container input:focus {
+  outline-color: #e85353;
+}
+
+.feature-point {
+  display: flex;
+  margin-top: 20px;
+}
+
+.feature-point-image {
+  background-color: #3664f4;
+  width: 20px;
+}
+
+#feature-text {
+  background-color: #e85353;
+  border-radius: 20px;
+}
+
+/* Responsive media queries */
+@media only screen and (max-width: 768px) {
+  .pricings-output {
+    margin-bottom: 20px;
+  }
+}
